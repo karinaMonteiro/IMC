@@ -57,7 +57,7 @@ class ViewController: UIViewController {
             image = "obesidade"
             
         }
-        resultadoLabel.text = result
+        resultadoLabel.text = "\(Int(imc)): \(result)"
         resultadoImageView.image = UIImage(named:image)
         
         // propriedade isHidden, qd true esconde o elemento, qd false o elemento view torna visivel no caso aqui foi depois de ter os resultados.

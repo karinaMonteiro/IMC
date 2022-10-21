@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="wnq-I0-maV">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="wnq-I0-maV">
                                 <rect key="frame" x="0.0" y="47" width="390" height="763"/>
                                 <color key="backgroundColor" red="0.31764706970000001" green="0.69803923369999998" blue="0.75294119120000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
@@ -25,7 +25,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="wnq-I0-maV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6we-ig-1bd"/>
+                            <constraint firstItem="wnq-I0-maV" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="91O-Rt-A9n"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wnq-I0-maV" secondAttribute="bottom" id="FPA-tS-GoX"/>
+                            <constraint firstItem="wnq-I0-maV" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="HtP-pi-zbe"/>
+                            <constraint firstItem="wnq-I0-maV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Psi-94-Cnl"/>
+                            <constraint firstItem="wnq-I0-maV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sLd-pt-lng"/>
                             <constraint firstItem="wnq-I0-maV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="t7i-dL-gwX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wnq-I0-maV" secondAttribute="trailing" id="uM9-MA-MVZ"/>
                         </constraints>
